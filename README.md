@@ -1,12 +1,11 @@
-# Zustand как стейт-менеджер для React-приложений
+# Zustand - Next.js - TypeScript
 
-[Документация Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
-
-В разных ветках вы можете шаги мастер-класса.
+[Zustand Documentation](https://docs.pmnd.rs/zustand/getting-started/introduction)
 
 ## Старт проекта
 
-Используйте следующие команды, предварительно не забудьте `npm install`
+Use next commands: `npm install`
+
 
 ```bash
 npm run dev
@@ -16,4 +15,4 @@ yarn dev
 pnpm dev
 ```
 
-Открывать по ссылке [http://localhost:3000](http://localhost:3000).
+open by the link [http://localhost:3000](http://localhost:3000).
