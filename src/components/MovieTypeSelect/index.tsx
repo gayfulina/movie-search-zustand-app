@@ -7,8 +7,8 @@ type MovieOption = {
 };
 
 const optionsMap: MovieOption = {
-    movie: { value: 'movie', label: 'Фильмы' },
-    cartoon: { value: 'cartoon', label: 'Мультфильмы' },
+    movie: { value: 'movie', label: 'Movies' },
+    cartoon: { value: 'cartoon', label: 'Cartoons' },
 };
 const options = Object.values(optionsMap);
 
