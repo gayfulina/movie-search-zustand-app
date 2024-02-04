@@ -13,7 +13,7 @@ export default function Home() {
       <button
         className="button-load"
         onClick={() => {}}
-      >Ещё фильмов</button>
+      >More movies</button>
     </div>
   )
 }

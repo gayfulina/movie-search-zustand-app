@@ -6,4 +6,11 @@ interface MovieTypeStore {
     setMovieType: (val: MovieType | null) => void;
 };
 
-// export const useMovieType = create<MovieTypeStore>((set) => ());
+export const useMovieType = create<MovieTypeStore>((set, get ) => ({
+
+    movieType: null,
+        setMovieType: (value) => {
+            console.log('setMovieType', value)
+            set({movieType: value})
+        },
+    }));
